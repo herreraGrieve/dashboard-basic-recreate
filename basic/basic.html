@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Basic</title>
+    <style>
+      .box{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 0;
+        top: 0
+      }
+      .box-isRed{
+        background-color: red;
+        left: 100%;
+        transform: translateX(-100%);
+        transition: all 0.5s cubic-bezier(0.42, 1.19, 1, 1);
+      }
+      .box-isBlue{
+        background-color: blue;
+        transition: all 0.5s cubic-bezier(0.42, 1.19, 1, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <div id='box' class='box box-isBlue'></div>
+    <script>
+      const box = document.getElementById('box')
+      box.addEventListener('click', (e)=>
+        {
+          box.classList.toggle('box-isBlue')
+          box.classList.toggle('box-isRed')
+        }
+      )
+    </script>
+  </body>
+</html>
