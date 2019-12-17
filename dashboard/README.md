@@ -12,3 +12,6 @@ and then
 npm run serve
 ```
 And you're all set
+
+![Screenshot](screenshot.PNG)
+
