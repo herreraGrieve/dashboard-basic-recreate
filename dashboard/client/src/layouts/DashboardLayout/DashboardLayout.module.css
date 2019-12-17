@@ -1,0 +1,35 @@
+.Layout{
+  min-height: 100vh;
+  /**/
+  background: var(--blue--1);
+}
+
+.Header{
+  background: white;
+  box-shadow: var(--elevation-1);
+}
+
+.Header_contentWrapper,.Layout_contentwrapper{
+  margin: auto;
+  max-width: var(--globalContainer);
+  padding-left: var(--s-3);
+  padding-right: var(--s-3);
+}
+
+.Header_contentWrapper{
+  padding-top: var(--s-3);
+  padding-bottom: var(--s-3);
+}
+
+.Layout_contentwrapper{
+  padding-top: var(--s-5);
+  padding-bottom: var(--s-4);
+}
+
+
+@media screen and (min-width: 650px) {
+  .Header_contentWrapper,.Layout_contentwrapper{
+    padding-left: var(--s-4);
+    padding-right: var(--s-4);
+  } 
+}
