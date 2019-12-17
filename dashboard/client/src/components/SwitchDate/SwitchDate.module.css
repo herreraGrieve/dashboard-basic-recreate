@@ -1,0 +1,19 @@
+.SwitchDate{
+  display: flex;
+  align-items: center;
+}
+
+.Label{
+  font-size: var(--f-1);
+}
+
+.button{
+  padding: 3px;
+  display: flex;
+  align-items: center;
+}
+
+
+.button:hover{
+  color: var(--blue-0)
+}

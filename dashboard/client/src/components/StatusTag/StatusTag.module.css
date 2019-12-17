@@ -1,0 +1,24 @@
+.tagCircle{
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  /**/
+  border-radius: 100%;
+}
+
+.container{
+  display: inline-flex;
+  align-items: center;
+}
+
+.tagCircle-isgreen{
+  background-color: var(--green-0);
+}
+
+.tagCircle-isyellow{
+  background-color: var(--yellow-0);
+}
+
+.tagCircle-isred{
+  background-color: var(--red-0);
+}

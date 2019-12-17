@@ -1,0 +1,40 @@
+.Card{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  /**/
+  border: 1px solid var(--gray-2);
+  border-radius: var(--radius-2);
+  box-shadow: var(--elevation-1);
+  background: white;
+}
+
+.title{
+  padding-top: var(--s-3);
+  margin-bottom: var(--s-3);
+  /**/
+  font-weight: 800;
+  font-size: var(--f-1);
+  text-align: center;
+}
+
+.footer{
+  margin-top: auto;
+  /**/
+  background: var(--blue-2);
+}
+
+.content{
+  padding-top: var(--s-3);
+  padding-bottom: var(--s-3);
+}
+
+.footer{
+  padding-bottom: var(--s-3);
+  padding-top: var(--s-3);
+}
+
+.content,.footer,.title{
+  padding-left: var(--s-3);
+  padding-right: var(--s-3);
+}
